@@ -30,6 +30,7 @@ func main() {
 		PaymentMethod: "paypal",
 	}
 
+	// TODO: implementar o módulo de pagamento
 	orderService := order.NewOrderService()
 	orderService.Pay(o)
 }
